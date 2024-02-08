@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: "roboto";
-    box-sizing: border-box;
+
+    overflow-wrap: break-word;
+
 }
 
 #conteiner {
@@ -12,6 +14,7 @@
     display: flex;
     gap: 5rem;
     align-items: center;
+
 }
 
 #logsrecents {
@@ -66,7 +69,7 @@ h2 {
     border: 1px solid#DDDFE2;
     border-radius: 8%;
     box-shadow: 1px 1px 1px #e0e4e7;
-    
+
 }
 
 #imagem1 {
@@ -80,7 +83,8 @@ h2 {
 }
 
 #imagem2 {
-    margin: 42% 35% 10% ;    background-size: cover;
+    margin: 42% 35% 10%;
+    background-size: cover;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     width: 45px;
@@ -88,7 +92,8 @@ h2 {
     background-image: url('../ativos/img/mais.png');
     background-size: cover;
 }
-#adcionarc{
+
+#adcionarc {
     width: 159px;
     height: 46px;
     background-color: #FFFFFF;
@@ -96,11 +101,13 @@ h2 {
     border-radius: 0px 0px 8px 8px;
     border: 0;
 }
-#adcionarcont{
+
+#adcionarcont {
     transform: translate(0px, 15px);
     text-align: center;
-color: #1877F2;
+    color: #1877F2;
 }
+
 #nome {
     color: #4a4d51;
     margin: 3%;
@@ -114,7 +121,7 @@ color: #1877F2;
     height: 400px;
     width: 400px;
     background-color: #FFFFFF;
-    
+
 }
 
 #camposdelog {
@@ -168,7 +175,7 @@ h3 {
     width: 90%;
     gap: 0.10rem;
     height: 50px;
-    
+
 }
 
 h4 {
@@ -180,7 +187,7 @@ h4 {
     margin: 10% 2%;
     height: 50px;
     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    
+
 }
 
 a {
@@ -205,12 +212,59 @@ hr {
     color: #FFFFFF;
     font-size: 25px;
     cursor: pointer;
-    
+
+
 }
-#rodape{
-    display: flex;
-    gap: 0.5rem;
-    text-align: center;
+
+footer {
     align-items: center;
-    margin: 0 30px;
+    margin: 20px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#linguagens {
+    height: 30px;
+    width: 700px;
+    display: flex;
+    gap: 20px;
+    margin: 0 10px;
+}
+
+#outros {
+    height: 20px;
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    word-wrap: break-word;
+   
+
+}
+#segudanda-part{
+    height: 20px;
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    word-wrap: break-word;
+   
+}
+#terceira-part{
+    height: 20px;
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+#meta{
+       margin-left: -835px;
+       font-size: 11px;
+}
+#camposdelog input:focus {
+border-color: #ca18f2;
 }
